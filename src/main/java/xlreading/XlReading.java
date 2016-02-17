@@ -14,7 +14,7 @@ public class XlReading {
     //code application logic here
        public static void main(String[] args) {
 
-		File file = new File("//home//ror//Desktop//XlReading//products.xlsx");
+		File file = new File("..//ExcelSheetReading//products.xlsx");
 		XLReadImpl one=new XLSheetOne(file);
 	      	one.fetchAllData();
 		System.out.println("1st row:: "+one.fetchDataFrom("first"));
